@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sample-provider" />
+        <module name="sample-api" />
+        <module name="sample-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="dubbo-sample" target="1.8" />
+      <module name="sample-api" target="1.8" />
+      <module name="sample-provider" target="1.8" />
+      <module name="sample-webapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
